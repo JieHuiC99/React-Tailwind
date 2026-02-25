@@ -1,15 +1,17 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "target": "ES2020",
     "module": "esnext",
-    "jsx": "react",
+    "jsx": "react-jsx",
     "strict": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "baseUrl": "./src",
-    "allowJs": true // Allow JavaScript files
+    "allowJs": true, // Allow JavaScript files
+    "noEmit": true,
+    "isolatedModules": true
   },
   "include": ["src"],
   "exclude": ["node_modules"]

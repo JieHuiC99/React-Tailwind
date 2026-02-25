@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "build:rsbuild": "rsbuild",
-    "start:rsbuild": "rsbuild --watch"
+    "start:rsbuild": "rsbuild --watch",
+    "test": "jest --passWithNoTests"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.0",
@@ -33,6 +34,7 @@
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
     "jest": "^30.2.0",
+    "jest-environment-jsdom": "^30.2.0",
     "postcss": "^8.5.6",
     "prettier": "^3.8.1",
     "tailwindcss": "^4.2.0",
