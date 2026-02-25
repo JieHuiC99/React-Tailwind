@@ -4,14 +4,13 @@
     "module": "esnext",
     "jsx": "react-jsx",
     "strict": true,
-    "moduleResolution": "Bundler",
+    "moduleResolution": "node",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "baseUrl": "./src",
-    "allowJs": true, // Allow JavaScript files
-    "noEmit": true,
-    "isolatedModules": true
+    "allowJs": true // Allow JavaScript files
+
   },
   "include": ["src"],
   "exclude": ["node_modules"]
