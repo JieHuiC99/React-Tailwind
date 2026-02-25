@@ -1,4 +1,4 @@
-## Steps Taken to Set Up RSBuild and Tailwind CSS
+### Steps Taken to Set Up RSBuild and Tailwind CSS
 
 ### Tailwind CSS Setup
 
