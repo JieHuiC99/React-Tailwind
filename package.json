@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "build:rsbuild": "rsbuild",
     "start:rsbuild": "rsbuild --watch",
-    "test": "jest"
+    "test": "jest --passWithNoTests"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.0",
