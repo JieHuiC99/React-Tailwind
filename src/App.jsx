@@ -1,31 +1,35 @@
-import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
+      {/* Logo Row */}
+      <div className="flex justify-center items-center gap-6 mt-6">
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
+
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+
+      {/* Title */}
+      <h1 className="font-satoshi text-center mt-6">
+        Hi Wei Keat !!!
+      </h1>
+
+      {/* Description */}
+      <div className="card text-center">
+        <p className="font-satoshi italic">
+          React + Tailwind CSS Demo By Yue Qin &amp; Jie Hui
         </p>
       </div>
-      <p className="read-the-docs">
+
+      {/* Footer Text */}
+      <p className="read-the-docs font-satoshi text-center">
         Click on the Vite and React logos to learn more
       </p>
     </>
