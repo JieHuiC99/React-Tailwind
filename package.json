@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "build:rsbuild": "rsbuild",
-    "start:rsbuild": "rsbuild --watch"
+    "start:rsbuild": "rsbuild --watch",
+    "test": "jest"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.0",
